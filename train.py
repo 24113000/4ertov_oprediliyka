@@ -124,7 +124,7 @@ def _main_(args):
     ###############################
 
     yolo.train(train_imgs         = train_imgs,
-               valid_imgs         = train_imgs, #TODO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+               valid_imgs         = valid_imgs,
                train_times        = config['train']['train_times'],
                valid_times        = config['valid']['valid_times'],
                nb_epoch           = config['train']['nb_epoch'], 

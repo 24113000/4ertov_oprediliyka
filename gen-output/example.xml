@@ -1,0 +1,13 @@
+<annotation verified="yes">
+	<folder>images</folder>
+	<filename></filename>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

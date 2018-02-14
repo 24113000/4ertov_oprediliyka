@@ -8,14 +8,14 @@
     },
 
     "train": {
-        "train_image_folder":   "figures_dataset/images/",
-        "train_annot_folder":   "figures_dataset/annotations/",
+        "train_image_folder":   "gen-output/images/",
+        "train_annot_folder":   "gen-output/annotations/",
           
-        "train_times":          10,
+        "train_times":          3,
         "pretrained_weights":   "figures_100_10.h5",
         "batch_size":           16,
         "learning_rate":        1e-4,
-        "nb_epoch":             100,
+        "nb_epoch":             1000,
         "warmup_epochs":        0,
 
         "object_scale":         5.0 ,
@@ -23,13 +23,13 @@
         "coord_scale":          1.0,
         "class_scale":          1.0,
 
-        "saved_weights_name":   "figures.h5",
+        "saved_weights_name":   "prod_figures.h5",
         "debug":                true
     },
 
     "valid": {
-        "valid_image_folder":   "",
-        "valid_annot_folder":   "",
+        "valid_image_folder":   "val-figures/images/",
+        "valid_annot_folder":   "val-figures/annotations/",
 
         "valid_times":          1
     }
